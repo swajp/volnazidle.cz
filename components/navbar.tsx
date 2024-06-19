@@ -46,7 +46,7 @@ export default async function Navbar() {
                 >
                   Přihlásit se
                 </Link>
-                <SignInButton mode="modal">
+                <SignInButton signUpFallbackRedirectUrl={"/"} mode="modal">
                   <Button className="font-semibold flex items-center">
                     Přidat se
                     <ArrowRightIcon className="ml-1.5 h-5 w-5" />
